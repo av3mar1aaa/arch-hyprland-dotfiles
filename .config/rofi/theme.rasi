@@ -1,0 +1,116 @@
+* {
+    bg:               #0e0e13;
+    surface:          #1b1b21;
+    surface-high:     #1f1f25;
+
+    fg:               #e4e1e9;
+    fg-muted:         #c7c5d0;
+
+    accent:           #bec2ff;
+    accent-secondary: #c5c4dd;
+
+    selected-bg:      #3d4278;
+    selected-fg:      #e0e0ff;
+
+    border-col:       #46464f;
+
+    font: "JetBrains Mono 12";
+}
+
+window {
+    width: 430px;
+
+    background-color: @bg;
+
+    border: 1px;
+    border-color: @border-col;
+    border-radius: 18px;
+
+    padding: 14px;
+}
+
+mainbox {
+    background-color: transparent;
+
+    children: [
+        inputbar,
+        listview
+    ];
+
+    spacing: 12px;
+}
+
+inputbar {
+    background-color: @surface;
+
+    border-radius: 12px;
+
+    padding: 12px 14px;
+
+    children: [
+        entry
+    ];
+}
+
+entry {
+    background-color: transparent;
+
+    text-color: @fg;
+
+    placeholder: "Search applications...";
+    placeholder-color: @fg-muted;
+
+    cursor-color: @accent;
+}
+
+listview {
+    background-color: transparent;
+
+    lines: 7;
+    columns: 1;
+
+    fixed-height: false;
+    dynamic: true;
+
+    spacing: 3px;
+
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+
+    text-color: @fg;
+
+    padding: 10px 12px;
+
+    border-radius: 10px;
+
+    spacing: 10px;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: @selected-bg;
+    text-color: @selected-fg;
+}
+
+element-icon {
+    background-color: transparent;
+
+    size: 27px;
+
+    margin: 0px 10px 0px 0px;
+}
+
+element-text {
+    background-color: transparent;
+
+    text-color: inherit;
+
+    vertical-align: 0.5;
+}

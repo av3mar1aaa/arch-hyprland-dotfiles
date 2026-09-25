@@ -1,0 +1,19 @@
+{
+  "radiusSmall": 10,
+  "radiusMedium": 14,
+  "radiusLarge": 18,
+
+  "borderWidth": 1,
+
+  "popupOpacity": 0.90,
+  "panelOpacity": 0.75,
+  "hoverOpacity": 0.55,
+
+  "animationFast": 160,
+  "animationNormal": 220,
+  "animationSlow": 320,
+
+  "blurEnabled": true,
+  "blurSize": 6,
+  "blurPasses": 1
+}

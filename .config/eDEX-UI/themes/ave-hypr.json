@@ -1,0 +1,52 @@
+{
+    "colors": {
+        "r": 190,
+        "g": 194,
+        "b": 255,
+        "black": "#0e0e13",
+        "red": "#ffb4ab",
+        "green": "#c5c4dd",
+        "yellow": "#e8b9d5",
+        "blue": "#bec2ff",
+        "magenta": "#d1beec",
+        "cyan": "#c0c3f3",
+        "white": "#e4e1e9",
+        "lightBlack": "#58575e",
+        "lightRed": "#fabdb7",
+        "lightGreen": "#cbcadf",
+        "lightYellow": "#e7c1d9",
+        "lightBlue": "#c5c8fb",
+        "lightMagenta": "#d5c5eb",
+        "lightCyan": "#c7c9f1",
+        "lightWhite": "#ebe8ee",
+        "light_black": "#1b1b21",
+        "grey": "#2a292f"
+    },
+    "cssvars": {
+        "font_main": "United Sans Medium",
+        "font_main_light": "United Sans Light"
+    },
+    "terminal": {
+        "fontFamily": "Fira Code",
+        "fontSize": 15,
+        "fontWeight": "normal",
+        "fontWeightBold": "bold",
+        "letterSpacing": 0,
+        "lineHeight": 1.1,
+        "cursorStyle": "bar",
+        "cursorBlink": true,
+        "foreground": "#e4e1e9",
+        "background": "rgba(14,14,19,0.94)",
+        "cursor": "#bec2ff",
+        "cursorAccent": "#0e0e13",
+        "selection": "rgba(190,194,255,0.25)",
+        "allowTransparency": true
+    },
+    "globe": {
+        "base": "#0e0e13",
+        "marker": "#e4e1e9",
+        "pin": "#bec2ff",
+        "satellite": "#c5c4dd"
+    },
+    "injectCSS": "body { background: radial-gradient(circle at center, rgba(31,31,37,0.98) 0%, rgba(14,14,19,0.99) 72%) !important; } #main_shell { text-shadow: 0 0 5px rgba(190,194,255,0.18); } .mod_column, .mod_column_inner { border-color: rgba(190,194,255,0.48) !important; } ::-webkit-scrollbar-thumb { background: rgba(190,194,255,0.38) !important; }"
+}

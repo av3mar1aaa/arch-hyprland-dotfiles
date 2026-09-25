@@ -1,0 +1,12 @@
+*.bak
+*.bak-*
+*.backup
+*.backup-*
+*.orig
+*.log
+*.pid
+*.sock
+.env
+.env.*
+.config/gh/
+.config/hypr/settings.json
